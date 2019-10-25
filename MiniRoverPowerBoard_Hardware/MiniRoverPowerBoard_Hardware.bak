@@ -1,0 +1,408 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 4 1 5DB30291
+P 1200 1950
+F 0 "Conn?" H 950 2050 60  0000 C CNN
+F 1 "AndersonPP" H 1150 2250 60  0000 C CNN
+F 2 "" H 1050 1400 60  0001 C CNN
+F 3 "" H 1050 1400 60  0001 C CNN
+	4    1200 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 1 1 5DB3030C
+P 1200 2850
+F 0 "Conn?" H 950 2950 60  0000 C CNN
+F 1 "AndersonPP" H 2000 3000 60  0001 C CNN
+F 2 "" H 1050 2300 60  0001 C CNN
+F 3 "" H 1050 2300 60  0001 C CNN
+	1    1200 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 1 1 5DB302CA
+P 1200 2200
+F 0 "Conn?" H 950 2300 60  0000 C CNN
+F 1 "AndersonPP" H 1406 2481 60  0001 C CNN
+F 2 "" H 1050 1650 60  0001 C CNN
+F 3 "" H 1050 1650 60  0001 C CNN
+	1    1200 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 4 1 5DB3034B
+P 1200 2600
+F 0 "Conn?" H 950 2700 60  0000 C CNN
+F 1 "AndersonPP" H 1406 2881 60  0001 C CNN
+F 2 "" H 1050 2050 60  0001 C CNN
+F 3 "" H 1050 2050 60  0001 C CNN
+	4    1200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB306B2
+P 1650 2900
+F 0 "#PWR?" H 1650 2650 50  0001 C CNN
+F 1 "GND" H 1655 2727 50  0000 C CNN
+F 2 "" H 1650 2900 50  0001 C CNN
+F 3 "" H 1650 2900 50  0001 C CNN
+	1    1650 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2100 1650 2100
+Wire Wire Line
+	1650 2100 1650 2750
+Wire Wire Line
+	1600 2750 1650 2750
+Connection ~ 1650 2750
+Wire Wire Line
+	1650 2750 1650 2900
+Wire Wire Line
+	1600 1850 1750 1850
+Wire Wire Line
+	1750 1850 1750 2200
+Wire Wire Line
+	1750 2500 1600 2500
+Wire Wire Line
+	1750 2200 2300 2200
+Connection ~ 1750 2200
+Wire Wire Line
+	1750 2200 1750 2500
+$Comp
+L MRDT_Switches:Relay_SPST SW?
+U 1 1 5DB3078F
+P 3700 950
+F 0 "SW?" H 4300 1200 50  0000 L CNN
+F 1 "Relay_SPST" H 4300 1100 50  0000 L CNN
+F 2 "" H 3950 1350 50  0001 C CNN
+F 3 "" H 3950 1350 50  0001 C CNN
+	1    3700 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DB30850
+P 2700 1550
+F 0 "R?" H 2759 1596 50  0000 L CNN
+F 1 "10k" H 2759 1505 50  0000 L CNN
+F 2 "" H 2700 1550 50  0001 C CNN
+F 3 "~" H 2700 1550 50  0001 C CNN
+	1    2700 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DB308B0
+P 2450 800
+F 0 "C?" H 2542 846 50  0000 L CNN
+F 1 "C_Small" H 2542 755 50  0000 L CNN
+F 2 "" H 2450 800 50  0001 C CNN
+F 3 "~" H 2450 800 50  0001 C CNN
+	1    2450 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener D?
+U 1 1 5DB3092B
+P 2700 1050
+F 0 "D?" H 2700 834 50  0000 C CNN
+F 1 "D_Zener" H 2700 925 50  0000 C CNN
+F 2 "" H 2700 1050 50  0001 C CNN
+F 3 "~" H 2700 1050 50  0001 C CNN
+	1    2700 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5DB30CB4
+P 3050 1350
+F 0 "Q?" H 3255 1396 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 3255 1305 50  0000 L CNN
+F 2 "" H 3250 1450 50  0001 C CNN
+F 3 "~" H 3050 1350 50  0001 C CNN
+	1    3050 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 5DB31108
+P 2450 2200
+F 0 "F?" V 2253 2200 50  0000 C CNN
+F 1 "30A_Fuse" V 2344 2200 50  0000 C CNN
+F 2 "" V 2380 2200 50  0001 C CNN
+F 3 "~" H 2450 2200 50  0001 C CNN
+	1    2450 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 1150 3150 1100
+Wire Wire Line
+	3150 1100 3750 1100
+Wire Wire Line
+	3750 1100 3750 1050
+Wire Wire Line
+	2850 1350 2700 1350
+Wire Wire Line
+	2700 1350 2700 1450
+Wire Wire Line
+	2700 1650 2700 1700
+Wire Wire Line
+	2700 1700 3150 1700
+Wire Wire Line
+	3150 1700 3150 1550
+Wire Wire Line
+	3150 1700 3150 1750
+Connection ~ 3150 1700
+Wire Wire Line
+	2700 1350 2650 1350
+Connection ~ 2700 1350
+$Comp
+L power:GND #PWR?
+U 1 1 5DB31D95
+P 3150 1750
+F 0 "#PWR?" H 3150 1500 50  0001 C CNN
+F 1 "GND" H 3155 1577 50  0000 C CNN
+F 2 "" H 3150 1750 50  0001 C CNN
+F 3 "" H 3150 1750 50  0001 C CNN
+	1    3150 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2200 2800 2200
+Wire Wire Line
+	4050 1050 4050 1100
+Wire Wire Line
+	4050 2200 3400 2200
+Wire Wire Line
+	3900 1050 3900 1100
+Wire Wire Line
+	3900 1100 4050 1100
+Connection ~ 4050 1100
+Wire Wire Line
+	4050 1100 4050 2200
+Wire Wire Line
+	4200 1050 4200 1100
+$Comp
+L Device:R_Small R?
+U 1 1 5DB32C36
+P 7600 2350
+F 0 "R?" H 7659 2396 50  0000 L CNN
+F 1 "R_Small" H 7659 2305 50  0000 L CNN
+F 2 "" H 7600 2350 50  0001 C CNN
+F 3 "~" H 7600 2350 50  0001 C CNN
+	1    7600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener D?
+U 1 1 5DB32C80
+P 7350 2550
+F 0 "D?" H 7400 2350 50  0000 C CNN
+F 1 "3V3_Zener" H 7400 2450 50  0000 C CNN
+F 2 "" H 7350 2550 50  0001 C CNN
+F 3 "~" H 7350 2550 50  0001 C CNN
+	1    7350 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DB32D08
+P 7600 2750
+F 0 "R?" H 7659 2796 50  0000 L CNN
+F 1 "R_Small" H 7659 2705 50  0000 L CNN
+F 2 "" H 7600 2750 50  0001 C CNN
+F 3 "~" H 7600 2750 50  0001 C CNN
+	1    7600 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB32D38
+P 7400 2950
+F 0 "#PWR?" H 7400 2700 50  0001 C CNN
+F 1 "GND" H 7405 2777 50  0000 C CNN
+F 2 "" H 7400 2950 50  0001 C CNN
+F 3 "" H 7400 2950 50  0001 C CNN
+	1    7400 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 2200 7600 2250
+Wire Wire Line
+	7600 2450 7600 2550
+Wire Wire Line
+	7500 2550 7600 2550
+Connection ~ 7600 2550
+Wire Wire Line
+	7600 2550 7600 2650
+Wire Wire Line
+	7200 2550 7150 2550
+Wire Wire Line
+	7150 2550 7150 2900
+Wire Wire Line
+	7150 2900 7400 2900
+Wire Wire Line
+	7600 2900 7600 2850
+Wire Wire Line
+	7400 2950 7400 2900
+Connection ~ 7400 2900
+Wire Wire Line
+	7400 2900 7600 2900
+Text GLabel 4950 1100 2    50   Input ~ 0
+LOGIC_PWR
+Text GLabel 7800 2550 2    50   Input ~ 0
+V_ACT_SENSE
+Wire Wire Line
+	7800 2550 7600 2550
+Connection ~ 4050 2200
+Wire Wire Line
+	4050 2200 5500 2200
+Wire Wire Line
+	6200 2200 7600 2200
+Text GLabel 7800 2200 2    50   Input ~ 0
+ACT_PWR
+Connection ~ 7600 2200
+Wire Wire Line
+	7600 2200 7800 2200
+Wire Wire Line
+	4200 1100 4950 1100
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5DB37577
+P 5400 3050
+F 0 "Q?" H 5605 3096 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 5605 3005 50  0000 L CNN
+F 2 "" H 5600 3150 50  0001 C CNN
+F 3 "~" H 5400 3050 50  0001 C CNN
+	1    5400 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GDS Q?
+U 1 1 5DB3771F
+P 6000 2300
+F 0 "Q?" V 6343 2300 50  0000 C CNN
+F 1 "Q_PMOS_GDS" V 6252 2300 50  0000 C CNN
+F 2 "" H 6200 2400 50  0001 C CNN
+F 3 "~" H 6000 2300 50  0001 C CNN
+	1    6000 2300
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DB3A526
+P 5500 2400
+F 0 "R?" H 5559 2446 50  0000 L CNN
+F 1 "R_Small" H 5559 2355 50  0000 L CNN
+F 2 "" H 5500 2400 50  0001 C CNN
+F 3 "~" H 5500 2400 50  0001 C CNN
+	1    5500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DB3A5F6
+P 5500 2700
+F 0 "R?" H 5559 2746 50  0000 L CNN
+F 1 "R_Small" H 5559 2655 50  0000 L CNN
+F 2 "" H 5500 2700 50  0001 C CNN
+F 3 "~" H 5500 2700 50  0001 C CNN
+	1    5500 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2300 5500 2200
+Connection ~ 5500 2200
+Wire Wire Line
+	5500 2200 5800 2200
+Wire Wire Line
+	5500 2500 5500 2550
+Wire Wire Line
+	5500 2550 6000 2550
+Wire Wire Line
+	6000 2550 6000 2500
+Connection ~ 5500 2550
+Wire Wire Line
+	5500 2550 5500 2600
+Wire Wire Line
+	5500 2800 5500 2850
+Wire Wire Line
+	5200 3050 5100 3050
+$Comp
+L Device:R_Small R?
+U 1 1 5DB3D3FF
+P 5100 3200
+F 0 "R?" H 5159 3246 50  0000 L CNN
+F 1 "10k" H 5159 3155 50  0000 L CNN
+F 2 "" H 5100 3200 50  0001 C CNN
+F 3 "~" H 5100 3200 50  0001 C CNN
+	1    5100 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3100 5100 3050
+Connection ~ 5100 3050
+Wire Wire Line
+	5100 3300 5100 3350
+Wire Wire Line
+	5100 3350 5300 3350
+Wire Wire Line
+	5500 3350 5500 3250
+Wire Wire Line
+	5300 3350 5300 3400
+Connection ~ 5300 3350
+Wire Wire Line
+	5300 3350 5500 3350
+$Comp
+L power:GND #PWR?
+U 1 1 5DB3F2CA
+P 5300 3400
+F 0 "#PWR?" H 5300 3150 50  0001 C CNN
+F 1 "GND" H 5305 3227 50  0000 C CNN
+F 2 "" H 5300 3400 50  0001 C CNN
+F 3 "" H 5300 3400 50  0001 C CNN
+	1    5300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_02 Conn?
+U 1 1 5DB3FAA8
+P 4850 2800
+F 0 "Conn?" V 5100 3050 60  0000 R CNN
+F 1 "E_STOP" V 5000 3050 60  0000 R CNN
+F 2 "" H 4850 2700 60  0001 C CNN
+F 3 "" H 4850 2700 60  0001 C CNN
+	1    4850 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 3000 4800 3050
+Wire Wire Line
+	4800 3050 5100 3050
+Wire Wire Line
+	4700 3000 4700 3050
+Wire Wire Line
+	4700 3050 4400 3050
+Text GLabel 4400 3050 0    50   Input ~ 0
+ESTOP_EN
+$EndSCHEMATC
