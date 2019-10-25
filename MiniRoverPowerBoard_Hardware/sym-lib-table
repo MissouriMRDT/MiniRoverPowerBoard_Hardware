@@ -10,4 +10,5 @@
   (lib (name MRDT_Shields)(type Legacy)(uri ${MRDT_KICAD_LIBRARIES}/Symbols/MRDT_Shields.lib)(options "")(descr ""))
   (lib (name MRDT_Silkscreens)(type Legacy)(uri ${MRDT_KICAD_LIBRARIES}/Symbols/MRDT_Silkscreens.lib)(options "")(descr ""))
   (lib (name MRDT_Switches)(type Legacy)(uri ${MRDT_KICAD_LIBRARIES}/Symbols/MRDT_Switches.lib)(options "")(descr ""))
+  (lib (name MiniRoverPowerBoard_Hardware)(type Legacy)(uri "C:/Users/Jacob Lipina/Documents/1.) Mars Rover/2019-2020 Rover/MiniRoverPowerBoard_Hardware/Libraries/Symbols/MiniRoverPowerBoard_Hardware.lib")(options "")(descr ""))
 )
