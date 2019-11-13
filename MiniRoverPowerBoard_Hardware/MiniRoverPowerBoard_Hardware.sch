@@ -16,13 +16,13 @@ Comment4 ""
 $EndDescr
 $Comp
 L MRDT_Connectors:AndersonPP Conn1
-U 4 1 5DB30291
+U 2 1 5DB30291
 P 1200 2850
 F 0 "Conn1" H 950 2950 60  0000 C CNN
 F 1 "AndersonPP" H 1150 3150 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 1050 2300 60  0001 C CNN
 F 3 "" H 1050 2300 60  0001 C CNN
-	4    1200 2850
+	2    1200 2850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -49,13 +49,13 @@ F 3 "" H 1050 2550 60  0001 C CNN
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn2
-U 4 1 5DB3034B
+U 2 1 5DB3034B
 P 1200 3500
 F 0 "Conn2" H 950 3600 60  0000 C CNN
 F 1 "AndersonPP" H 1406 3781 60  0001 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 1050 2950 60  0001 C CNN
 F 3 "" H 1050 2950 60  0001 C CNN
-	4    1200 3500
+	2    1200 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -642,7 +642,7 @@ U 1 1 5DC95B8C
 P 6150 7750
 F 0 "SW4" H 6150 8035 50  0000 C CNN
 F 1 "SW_SPDT" H 6150 7944 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_CW_GPTS203211B" H 6150 7750 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled" H 6150 7750 50  0001 C CNN
 F 3 "" H 6150 7750 50  0001 C CNN
 	1    6150 7750
 	1    0    0    -1  
@@ -1128,10 +1128,10 @@ Wire Wire Line
 Wire Wire Line
 	3550 7350 3650 7350
 $Comp
-L MRDT_Connectors:AndersonPP Conn1
+L MRDT_Connectors:AndersonPP Conn3
 U 2 1 5DD4C020
 P 4550 6400
-F 0 "Conn1" H 4523 6447 60  0000 R CNN
+F 0 "Conn3" H 4523 6447 60  0000 R CNN
 F 1 "AndersonPP" H 4523 6553 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 4400 5850 60  0001 C CNN
 F 3 "" H 4400 5850 60  0001 C CNN
@@ -1362,10 +1362,10 @@ Wire Wire Line
 Wire Wire Line
 	3550 9750 3650 9750
 $Comp
-L MRDT_Connectors:AndersonPP Conn2
+L MRDT_Connectors:AndersonPP Conn4
 U 2 1 5DDD7FF9
 P 4550 8800
-F 0 "Conn2" H 4523 8847 60  0000 R CNN
+F 0 "Conn4" H 4523 8847 60  0000 R CNN
 F 1 "AndersonPP" H 4523 8953 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 4400 8250 60  0001 C CNN
 F 3 "" H 4400 8250 60  0001 C CNN
@@ -2249,4 +2249,12 @@ F 3 "AOD4189" H 7400 3200 50  0001 C CNN
 	1    7400 3200
 	0    1    -1   0   
 $EndComp
+Text Label 1800 3100 0    50   ~ 0
+PVDD_IN1
+Text Label 2700 3100 0    50   ~ 0
+PVDD_IN2
+Text Label 3350 3100 0    50   ~ 0
+PVDD_IN3
+Text Notes 6500 3450 0    43   ~ 0
+8.4V to 2.54V\n6V to 1.81V
 $EndSCHEMATC
