@@ -630,17 +630,6 @@ Connection ~ 9350 6300
 Text Notes 8600 5400 0    98   ~ 20
 Buzzer
 $Comp
-L Switch:SW_SPDT SW4
-U 1 1 5DC95B8C
-P 6150 7750
-F 0 "SW4" H 6150 8035 50  0000 C CNN
-F 1 "SW_SPDT" H 6150 7944 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled" H 6150 7750 50  0001 C CNN
-F 3 "" H 6150 7750 50  0001 C CNN
-	1    6150 7750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push SW2
 U 1 1 5DC95C31
 P 6150 6450
@@ -682,17 +671,6 @@ F 1 "10k" H 6509 7155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6450 7200 50  0001 C CNN
 F 3 "~" H 6450 7200 50  0001 C CNN
 	1    6450 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R15
-U 1 1 5DC98877
-P 6450 7800
-F 0 "R15" H 6509 7846 50  0000 L CNN
-F 1 "10k" H 6509 7755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6450 7800 50  0001 C CNN
-F 3 "~" H 6450 7800 50  0001 C CNN
-	1    6450 7800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -769,44 +747,6 @@ Wire Wire Line
 	5800 6400 5800 6450
 Wire Wire Line
 	5800 6450 5950 6450
-$Comp
-L power:GND #PWR0113
-U 1 1 5DCB4D54
-P 6450 7950
-F 0 "#PWR0113" H 6450 7700 50  0001 C CNN
-F 1 "GND" H 6455 7777 50  0000 C CNN
-F 2 "" H 6450 7950 50  0001 C CNN
-F 3 "" H 6450 7950 50  0001 C CNN
-	1    6450 7950
-	1    0    0    -1  
-$EndComp
-NoConn ~ 6350 7850
-Wire Wire Line
-	6450 7900 6450 7950
-Wire Wire Line
-	6450 7700 6450 7650
-Wire Wire Line
-	6450 7650 6350 7650
-Wire Wire Line
-	6450 7650 6650 7650
-Connection ~ 6450 7650
-Wire Wire Line
-	5950 7750 5800 7750
-Wire Wire Line
-	5800 7750 5800 7700
-$Comp
-L power:+5V #PWR0114
-U 1 1 5DCC2DE5
-P 5800 7700
-F 0 "#PWR0114" H 5800 7550 50  0001 C CNN
-F 1 "+5V" H 5815 7873 50  0000 C CNN
-F 2 "" H 5800 7700 50  0001 C CNN
-F 3 "" H 5800 7700 50  0001 C CNN
-	1    5800 7700
-	1    0    0    -1  
-$EndComp
-Text GLabel 6650 7650 2    50   Output ~ 0
-DIRECTION_SW
 Text Notes 5900 5950 0    98   ~ 20
 Drive Switches
 Text Notes 7500 8950 0    98   ~ 20
@@ -1892,7 +1832,7 @@ Text GLabel 14300 2350 2    50   Input ~ 0
 LOGIC_PWR
 Text GLabel 12850 3250 0    50   Output ~ 0
 ESTOP_EN
-Text GLabel 12850 2450 0    50   Output ~ 0
+Text GLabel 12850 2950 0    50   Output ~ 0
 LOG_SW_EN
 Text GLabel 12850 3350 0    50   Output ~ 0
 BUZZER_EN
@@ -1900,8 +1840,6 @@ Text GLabel 12850 2750 0    50   Input ~ 0
 LEFT_SW
 Text GLabel 12850 2850 0    50   Input ~ 0
 RIGHT_SW
-Text GLabel 12850 2950 0    50   Input ~ 0
-DIRECTION_SW
 Text GLabel 12850 3450 0    50   Output ~ 0
 IN_A1
 Text GLabel 12850 3550 0    50   Output ~ 0
@@ -1966,8 +1904,6 @@ Wire Wire Line
 	12850 2750 12900 2750
 Text GLabel 14300 3750 2    50   Output ~ 0
 CONTROLLER_CLK
-Wire Wire Line
-	12850 2450 12900 2450
 Text GLabel 14300 3450 2    50   Output ~ 0
 CONTROLLER_CMD
 Text GLabel 14300 3350 2    50   Output ~ 0
@@ -2222,7 +2158,6 @@ NoConn ~ 14250 2150
 NoConn ~ 14250 2550
 NoConn ~ 14250 2650
 NoConn ~ 12900 2550
-NoConn ~ 12900 2350
 NoConn ~ 12900 2250
 NoConn ~ 12900 2150
 NoConn ~ 14250 3650
