@@ -2287,21 +2287,21 @@ $EndComp
 Wire Notes Line
 	7600 6500 5400 6500
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn?
+L MRDT_Connectors:Molex_SL_02 Conn7
 U 1 1 5DD732D9
 P 6750 5950
-F 0 "Conn?" H 6877 6108 60  0000 L CNN
+F 0 "Conn7" H 6877 6108 60  0000 L CNN
 F 1 "Molex_SL_02" H 6877 6002 60  0000 L CNN
-F 2 "" H 6750 5850 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 6750 5850 60  0001 C CNN
 F 3 "" H 6750 5850 60  0001 C CNN
 	1    6750 5950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R15
 U 1 1 5DD73B63
 P 6150 5750
-F 0 "R?" V 6050 5700 50  0000 L CNN
+F 0 "R15" V 6050 5700 50  0000 L CNN
 F 1 "0" V 6150 5700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6150 5750 50  0001 C CNN
 F 3 "~" H 6150 5750 50  0001 C CNN
@@ -2309,10 +2309,10 @@ F 3 "~" H 6150 5750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R26
 U 1 1 5DD75966
 P 6150 5950
-F 0 "R?" V 6050 5900 50  0000 L CNN
+F 0 "R26" V 6050 5900 50  0000 L CNN
 F 1 "0" V 6150 5900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6150 5950 50  0001 C CNN
 F 3 "~" H 6150 5950 50  0001 C CNN
@@ -2320,10 +2320,10 @@ F 3 "~" H 6150 5950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R27
 U 1 1 5DD75A1C
 P 6350 5850
-F 0 "R?" H 6200 5850 50  0000 L CNN
+F 0 "R27" H 6200 5850 50  0000 L CNN
 F 1 "0" V 6350 5800 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6350 5850 50  0001 C CNN
 F 3 "~" H 6350 5850 50  0001 C CNN
@@ -2366,4 +2366,133 @@ Wire Wire Line
 	12300 7300 12250 7300
 Wire Wire Line
 	12250 7400 12300 7400
+$Comp
+L MRDT_Connectors:Molex_SL_02 Conn8
+U 1 1 5DD8021C
+P 12400 1900
+F 0 "Conn8" H 12527 2058 60  0000 L CNN
+F 1 "Molex_SL_02" H 12527 1952 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 12400 1800 60  0001 C CNN
+F 3 "" H 12400 1800 60  0001 C CNN
+	1    12400 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_04 Conn9
+U 1 1 5DD803DE
+P 12400 3300
+F 0 "Conn9" H 12527 3558 60  0000 L CNN
+F 1 "Molex_SL_04" H 12527 3452 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 12400 3300 60  0001 C CNN
+F 3 "" H 12400 3300 60  0001 C CNN
+	1    12400 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 12150 2950 0    50   Input ~ 0
+ACT_PWR
+Text GLabel 12150 3050 0    50   Input ~ 0
+ACT_PWR
+$Comp
+L power:GND #PWR0113
+U 1 1 5DD81AC3
+P 12150 3300
+F 0 "#PWR0113" H 12150 3050 50  0001 C CNN
+F 1 "GND" H 12155 3127 50  0000 C CNN
+F 2 "" H 12150 3300 50  0001 C CNN
+F 3 "" H 12150 3300 50  0001 C CNN
+	1    12150 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12200 3150 12150 3150
+Wire Wire Line
+	12150 3150 12150 3250
+Wire Wire Line
+	12200 3250 12150 3250
+Connection ~ 12150 3250
+Wire Wire Line
+	12150 3250 12150 3300
+Wire Wire Line
+	12200 3050 12150 3050
+Wire Wire Line
+	12150 2950 12200 2950
+$Comp
+L MRDT_Connectors:Molex_SL_04 Conn10
+U 1 1 5DE03C76
+P 12400 4050
+F 0 "Conn10" H 12527 4308 60  0000 L CNN
+F 1 "Molex_SL_04" H 12527 4202 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 12400 4050 60  0001 C CNN
+F 3 "" H 12400 4050 60  0001 C CNN
+	1    12400 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 12150 3700 0    50   Input ~ 0
+ACT_PWR
+Text GLabel 12150 3800 0    50   Input ~ 0
+ACT_PWR
+$Comp
+L power:GND #PWR0114
+U 1 1 5DE03C7E
+P 12150 4050
+F 0 "#PWR0114" H 12150 3800 50  0001 C CNN
+F 1 "GND" H 12155 3877 50  0000 C CNN
+F 2 "" H 12150 4050 50  0001 C CNN
+F 3 "" H 12150 4050 50  0001 C CNN
+	1    12150 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12200 3900 12150 3900
+Wire Wire Line
+	12150 3900 12150 4000
+Wire Wire Line
+	12200 4000 12150 4000
+Connection ~ 12150 4000
+Wire Wire Line
+	12150 4000 12150 4050
+Wire Wire Line
+	12200 3800 12150 3800
+Wire Wire Line
+	12150 3700 12200 3700
+$Comp
+L power:GND #PWR0143
+U 1 1 5DE25856
+P 12150 1900
+F 0 "#PWR0143" H 12150 1650 50  0001 C CNN
+F 1 "GND" H 12155 1727 50  0000 C CNN
+F 2 "" H 12150 1900 50  0001 C CNN
+F 3 "" H 12150 1900 50  0001 C CNN
+	1    12150 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12150 1750 12200 1750
+Wire Wire Line
+	12150 1900 12150 1850
+Wire Wire Line
+	12150 1850 12200 1850
+$Comp
+L power:+5V #PWR0144
+U 1 1 5DE69DC1
+P 12150 1700
+F 0 "#PWR0144" H 12150 1550 50  0001 C CNN
+F 1 "+5V" H 12165 1873 50  0000 C CNN
+F 2 "" H 12150 1700 50  0001 C CNN
+F 3 "" H 12150 1700 50  0001 C CNN
+	1    12150 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12150 1700 12150 1750
+Text Notes 11800 800  0    98   ~ 20
+Extra Outputs
+Text Notes 12200 1450 0    98   ~ 0
+5V
+Text Notes 12150 2750 0    98   ~ 0
+12V
+Wire Notes Line
+	13300 5150 13300 500 
+Text Notes 11600 5050 0    50   ~ 0
+Sorry for these 12V connectors. Whole \nandersons for 12V extra busses on a \nmini rover are overkill. But I don't want \nto introduce a new connector outside \nour standards. So two pins on a \nMolex SL will get you 4A.
 $EndSCHEMATC
