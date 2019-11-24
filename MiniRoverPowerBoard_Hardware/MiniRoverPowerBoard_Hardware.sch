@@ -1814,39 +1814,39 @@ Wire Wire Line
 Connection ~ 9250 3800
 Wire Wire Line
 	9250 3800 9600 3800
-Text GLabel 12250 8000 0    50   Output ~ 0
-LEFT_PWM
 Text GLabel 12250 8100 0    50   Output ~ 0
+LEFT_PWM
+Text GLabel 12250 8400 0    50   Output ~ 0
 RIGHT_PWM
 Wire Wire Line
 	12250 8000 12300 8000
 Wire Wire Line
 	12300 8100 12250 8100
-Text GLabel 13700 8100 2    50   Input ~ 0
-PACK_IMEAS
 Text GLabel 13700 8000 2    50   Input ~ 0
+PACK_IMEAS
+Text GLabel 13700 8100 2    50   Input ~ 0
 V_LOG_SENSE
 Text GLabel 13700 7900 2    50   Input ~ 0
 V_ACT_SENSE
 Text GLabel 13700 7300 2    50   Input ~ 0
 LOGIC_PWR
-Text GLabel 12250 8200 0    50   Output ~ 0
+Text GLabel 12250 7800 0    50   Output ~ 0
 ESTOP_EN
 Text GLabel 12250 7900 0    50   Output ~ 0
 LOG_SW_EN
-Text GLabel 12250 8300 0    50   Output ~ 0
+Text GLabel 12250 7700 0    50   Output ~ 0
 BUZZER_EN
-Text GLabel 12250 7700 0    50   Input ~ 0
+Text GLabel 12250 8700 0    50   Input ~ 0
 LEFT_SW
-Text GLabel 12250 7800 0    50   Input ~ 0
+Text GLabel 12250 8600 0    50   Input ~ 0
 RIGHT_SW
-Text GLabel 12250 8400 0    50   Output ~ 0
+Text GLabel 12250 8000 0    50   Output ~ 0
 IN_A1
-Text GLabel 12250 8500 0    50   Output ~ 0
+Text GLabel 12250 8200 0    50   Output ~ 0
 IN_B1
-Text GLabel 12250 8600 0    50   Output ~ 0
+Text GLabel 12250 8300 0    50   Output ~ 0
 IN_A2
-Text GLabel 12250 8700 0    50   Output ~ 0
+Text GLabel 12250 8500 0    50   Output ~ 0
 IN_B2
 $Comp
 L power:GND #PWR0136
