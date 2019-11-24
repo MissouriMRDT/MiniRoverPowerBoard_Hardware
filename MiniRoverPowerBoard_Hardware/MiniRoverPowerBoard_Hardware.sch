@@ -1822,11 +1822,11 @@ Wire Wire Line
 	12250 8000 12300 8000
 Wire Wire Line
 	12300 8100 12250 8100
-Text GLabel 13700 8000 2    50   Input ~ 0
+Text GLabel 13700 7900 2    50   Input ~ 0
 PACK_IMEAS
 Text GLabel 13700 8100 2    50   Input ~ 0
 V_LOG_SENSE
-Text GLabel 13700 7900 2    50   Input ~ 0
+Text GLabel 13700 8000 2    50   Input ~ 0
 V_ACT_SENSE
 Text GLabel 13700 7300 2    50   Input ~ 0
 LOGIC_PWR
