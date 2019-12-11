@@ -127,7 +127,7 @@ L Device:Fuse F1
 U 1 1 5DB31108
 P 2450 3100
 F 0 "F1" V 2253 3100 50  0000 C CNN
-F 1 "30A_Fuse" V 2344 3100 50  0000 C CNN
+F 1 "35A_Fuse" V 2344 3100 50  0000 C CNN
 F 2 "MRDT_Passives:ATC_Fuse_Block" V 2380 3100 50  0001 C CNN
 F 3 "~" H 2450 3100 50  0001 C CNN
 	1    2450 3100
@@ -1822,11 +1822,11 @@ Wire Wire Line
 	12250 8000 12300 8000
 Wire Wire Line
 	12300 8100 12250 8100
-Text GLabel 13700 8000 2    50   Input ~ 0
+Text GLabel 13700 7900 2    50   Input ~ 0
 PACK_IMEAS
 Text GLabel 13700 8100 2    50   Input ~ 0
 V_LOG_SENSE
-Text GLabel 13700 7900 2    50   Input ~ 0
+Text GLabel 13700 8000 2    50   Input ~ 0
 V_ACT_SENSE
 Text GLabel 13700 7300 2    50   Input ~ 0
 LOGIC_PWR
