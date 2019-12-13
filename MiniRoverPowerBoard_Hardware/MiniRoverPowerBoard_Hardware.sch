@@ -1649,7 +1649,7 @@ Text GLabel 13700 8100 2    50   Input ~ 0
 V_LOG_SENSE
 Text GLabel 13700 8000 2    50   Input ~ 0
 V_ACT_SENSE
-Text GLabel 13700 7300 2    50   Input ~ 0
+Text GLabel 14300 7300 2    50   Input ~ 0
 LOGIC_PWR
 Text GLabel 12250 7800 0    50   Output ~ 0
 ESTOP_EN
@@ -1695,8 +1695,6 @@ F 3 "" H 13700 7400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	13700 7400 13650 7400
-Wire Wire Line
-	13650 7300 13700 7300
 Wire Wire Line
 	13650 8100 13700 8100
 Wire Wire Line
@@ -1952,12 +1950,11 @@ Wire Notes Line
 	7600 5150 7600 8500
 Wire Notes Line
 	7600 6750 10300 6750
-Text Notes 14250 7350 0    50   ~ 0
+Text Notes 14300 6950 0    50   ~ 0
 Min Input Volatge: 7V
 NoConn ~ 13650 7200
 NoConn ~ 13650 7100
 NoConn ~ 13650 7500
-NoConn ~ 13650 7600
 NoConn ~ 12300 7500
 NoConn ~ 12300 7200
 NoConn ~ 12300 7100
@@ -2121,7 +2118,7 @@ U 1 1 5DD803DE
 P 12400 3300
 F 0 "Conn9" H 12527 3558 60  0000 L CNN
 F 1 "Molex_SL_04" H 12527 3452 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 12400 3300 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_04_Vertical" H 12400 3300 60  0001 C CNN
 F 3 "" H 12400 3300 60  0001 C CNN
 	1    12400 3300
 	1    0    0    -1  
@@ -2160,7 +2157,7 @@ U 1 1 5DE03C76
 P 12400 4050
 F 0 "Conn10" H 12527 4308 60  0000 L CNN
 F 1 "Molex_SL_04" H 12527 4202 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 12400 4050 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_04_Vertical" H 12400 4050 60  0001 C CNN
 F 3 "" H 12400 4050 60  0001 C CNN
 	1    12400 4050
 	1    0    0    -1  
@@ -2234,10 +2231,10 @@ Wire Notes Line
 Text Notes 11600 5050 0    50   ~ 0
 Sorry for these 12V connectors. Whole \nandersons for 12V extra busses on a \nmini rover are overkill. But I don't want \nto introduce a new connector outside \nour standards. So two pins on a \nMolex SL will get you 4A.
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0133
 U 1 1 5DF504B1
 P 13700 8600
-F 0 "#PWR?" H 13700 8450 50  0001 C CNN
+F 0 "#PWR0133" H 13700 8450 50  0001 C CNN
 F 1 "+3V3" V 13700 8800 50  0000 C CNN
 F 2 "" H 13700 8600 50  0001 C CNN
 F 3 "" H 13700 8600 50  0001 C CNN
@@ -2295,16 +2292,16 @@ U 1 1 5DFF49B9
 P 6450 6000
 F 0 "Conn7" H 6577 6208 60  0000 L CNN
 F 1 "Molex_SL_03" H 6577 6102 60  0000 L CNN
-F 2 "" H 6450 6000 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_03_Vertical" H 6450 6000 60  0001 C CNN
 F 3 "" H 6450 6000 60  0001 C CNN
 	1    6450 6000
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0134
 U 1 1 5E047F67
 P 6200 6000
-F 0 "#PWR?" H 6200 5750 50  0001 C CNN
+F 0 "#PWR0134" H 6200 5750 50  0001 C CNN
 F 1 "GND" H 6205 5827 50  0000 C CNN
 F 2 "" H 6200 6000 50  0001 C CNN
 F 3 "" H 6200 6000 50  0001 C CNN
@@ -2315,4 +2312,49 @@ Wire Wire Line
 	6200 6000 6200 5950
 Wire Wire Line
 	6200 5950 6250 5950
+$Comp
+L power:+5V #PWR0145
+U 1 1 5DF5E744
+P 14300 7600
+F 0 "#PWR0145" H 14300 7450 50  0001 C CNN
+F 1 "+5V" H 14315 7773 50  0000 C CNN
+F 2 "" H 14300 7600 50  0001 C CNN
+F 3 "" H 14300 7600 50  0001 C CNN
+	1    14300 7600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R15
+U 1 1 5DF82801
+P 14150 7300
+F 0 "R15" V 14250 7250 50  0000 L CNN
+F 1 "0" V 14150 7300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14150 7300 50  0001 C CNN
+F 3 "ERJ-PB3B2102V" H 14150 7300 50  0001 C CNN
+	1    14150 7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R26
+U 1 1 5DF83E9F
+P 14150 7600
+F 0 "R26" V 14250 7550 50  0000 L CNN
+F 1 "0" V 14150 7600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14150 7600 50  0001 C CNN
+F 3 "ERJ-PB3B2102V" H 14150 7600 50  0001 C CNN
+	1    14150 7600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14250 7600 14300 7600
+Wire Wire Line
+	14250 7300 14300 7300
+Wire Wire Line
+	14050 7300 13650 7300
+Wire Wire Line
+	13650 7600 14050 7600
+Text Label 13700 7300 0    50   ~ 0
+VIN_R
+Text Label 13700 7600 0    50   ~ 0
+5V_R
 $EndSCHEMATC
