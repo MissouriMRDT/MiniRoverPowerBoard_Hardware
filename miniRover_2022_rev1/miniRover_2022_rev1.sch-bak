@@ -63,7 +63,7 @@ U 1 1 60EDF96D
 P 1050 3150
 F 0 "A1" H 1050 4331 50  0000 C CNN
 F 1 "Arduino_UNO_R3" H 1050 4240 50  0000 C CNN
-F 2 "Module:Arduino_UNO_R3_WithMountingHoles" H 1050 3150 50  0001 C CIN
+F 2 "Module:Arduino_UNO_R3" H 1050 3150 50  0001 C CIN
 F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 1050 3150 50  0001 C CNN
 	1    1050 3150
 	1    0    0    -1  

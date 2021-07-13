@@ -1,0 +1,358 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 60F4A677
+P 2950 1150
+AR Path="/60F4A677" Ref="#PWR?"  Part="1" 
+AR Path="/60F3E927/60F4A677" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 2950 900 50  0001 C CNN
+F 1 "GND" H 2955 977 50  0000 C CNN
+F 2 "" H 2950 1150 50  0001 C CNN
+F 3 "" H 2950 1150 50  0001 C CNN
+	1    2950 1150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L miniRover2022:DRV8871-Breakout-PCB U?
+U 1 1 60F4A67D
+P 2700 1100
+AR Path="/60F4A67D" Ref="U?"  Part="1" 
+AR Path="/60F3E927/60F4A67D" Ref="U2"  Part="1" 
+F 0 "U2" H 3050 1300 50  0000 C CNN
+F 1 "DRV8871-Breakout-PCB" H 3050 1000 50  0000 C CNN
+F 2 "miniRover2022:DRV8871-Breakout-PCB" H 2900 1250 50  0001 C CNN
+F 3 "" H 2900 1250 50  0001 C CNN
+	1    2700 1100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60F4A683
+P 2950 1600
+AR Path="/60F4A683" Ref="#PWR?"  Part="1" 
+AR Path="/60F3E927/60F4A683" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 2950 1350 50  0001 C CNN
+F 1 "GND" H 2955 1427 50  0000 C CNN
+F 2 "" H 2950 1600 50  0001 C CNN
+F 3 "" H 2950 1600 50  0001 C CNN
+	1    2950 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L miniRover2022:DRV8871-Breakout-PCB U?
+U 1 1 60F4A689
+P 2700 1550
+AR Path="/60F4A689" Ref="U?"  Part="1" 
+AR Path="/60F3E927/60F4A689" Ref="U3"  Part="1" 
+F 0 "U3" H 3050 1750 50  0000 C CNN
+F 1 "DRV8871-Breakout-PCB" H 3050 1450 50  0000 C CNN
+F 2 "miniRover2022:DRV8871-Breakout-PCB" H 2900 1700 50  0001 C CNN
+F 3 "" H 2900 1700 50  0001 C CNN
+	1    2700 1550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60F4A68F
+P 2950 2050
+AR Path="/60F4A68F" Ref="#PWR?"  Part="1" 
+AR Path="/60F3E927/60F4A68F" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 2950 1800 50  0001 C CNN
+F 1 "GND" H 2955 1877 50  0000 C CNN
+F 2 "" H 2950 2050 50  0001 C CNN
+F 3 "" H 2950 2050 50  0001 C CNN
+	1    2950 2050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L miniRover2022:DRV8871-Breakout-PCB U?
+U 1 1 60F4A695
+P 2700 2000
+AR Path="/60F4A695" Ref="U?"  Part="1" 
+AR Path="/60F3E927/60F4A695" Ref="U4"  Part="1" 
+F 0 "U4" H 3050 2200 50  0000 C CNN
+F 1 "DRV8871-Breakout-PCB" H 3050 1900 50  0000 C CNN
+F 2 "miniRover2022:DRV8871-Breakout-PCB" H 2900 2150 50  0001 C CNN
+F 3 "" H 2900 2150 50  0001 C CNN
+	1    2700 2000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 1150 2950 1100
+Wire Wire Line
+	2950 1100 2700 1100
+Wire Wire Line
+	2950 1600 2950 1550
+Wire Wire Line
+	2950 1550 2700 1550
+Wire Wire Line
+	2950 2050 2950 2000
+Wire Wire Line
+	2950 2000 2700 2000
+Wire Wire Line
+	2000 2000 1750 2000
+Wire Wire Line
+	1750 2000 1750 1550
+Wire Wire Line
+	1750 1550 2000 1550
+Wire Wire Line
+	1750 1550 1750 1100
+Wire Wire Line
+	1750 1100 2000 1100
+Connection ~ 1750 1550
+Wire Wire Line
+	2000 1000 1850 1000
+Wire Wire Line
+	1850 1000 1850 1450
+Wire Wire Line
+	1850 1450 2000 1450
+Wire Wire Line
+	1850 1450 1850 1900
+Wire Wire Line
+	1850 1900 2000 1900
+Connection ~ 1850 1450
+$Comp
+L power:GND #PWR?
+U 1 1 60F4A6C5
+P 2950 2800
+AR Path="/60F4A6C5" Ref="#PWR?"  Part="1" 
+AR Path="/60F3E927/60F4A6C5" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 2950 2550 50  0001 C CNN
+F 1 "GND" H 2955 2627 50  0000 C CNN
+F 2 "" H 2950 2800 50  0001 C CNN
+F 3 "" H 2950 2800 50  0001 C CNN
+	1    2950 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L miniRover2022:DRV8871-Breakout-PCB U?
+U 1 1 60F4A6CB
+P 2700 2750
+AR Path="/60F4A6CB" Ref="U?"  Part="1" 
+AR Path="/60F3E927/60F4A6CB" Ref="U5"  Part="1" 
+F 0 "U5" H 3050 2950 50  0000 C CNN
+F 1 "DRV8871-Breakout-PCB" H 3050 2650 50  0000 C CNN
+F 2 "miniRover2022:DRV8871-Breakout-PCB" H 2900 2900 50  0001 C CNN
+F 3 "" H 2900 2900 50  0001 C CNN
+	1    2700 2750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60F4A6D1
+P 2950 3250
+AR Path="/60F4A6D1" Ref="#PWR?"  Part="1" 
+AR Path="/60F3E927/60F4A6D1" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 2950 3000 50  0001 C CNN
+F 1 "GND" H 2955 3077 50  0000 C CNN
+F 2 "" H 2950 3250 50  0001 C CNN
+F 3 "" H 2950 3250 50  0001 C CNN
+	1    2950 3250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L miniRover2022:DRV8871-Breakout-PCB U?
+U 1 1 60F4A6D7
+P 2700 3200
+AR Path="/60F4A6D7" Ref="U?"  Part="1" 
+AR Path="/60F3E927/60F4A6D7" Ref="U6"  Part="1" 
+F 0 "U6" H 3050 3400 50  0000 C CNN
+F 1 "DRV8871-Breakout-PCB" H 3050 3100 50  0000 C CNN
+F 2 "miniRover2022:DRV8871-Breakout-PCB" H 2900 3350 50  0001 C CNN
+F 3 "" H 2900 3350 50  0001 C CNN
+	1    2700 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60F4A6DD
+P 2950 3700
+AR Path="/60F4A6DD" Ref="#PWR?"  Part="1" 
+AR Path="/60F3E927/60F4A6DD" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 2950 3450 50  0001 C CNN
+F 1 "GND" H 2955 3527 50  0000 C CNN
+F 2 "" H 2950 3700 50  0001 C CNN
+F 3 "" H 2950 3700 50  0001 C CNN
+	1    2950 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L miniRover2022:DRV8871-Breakout-PCB U?
+U 1 1 60F4A6E3
+P 2700 3650
+AR Path="/60F4A6E3" Ref="U?"  Part="1" 
+AR Path="/60F3E927/60F4A6E3" Ref="U7"  Part="1" 
+F 0 "U7" H 3050 3850 50  0000 C CNN
+F 1 "DRV8871-Breakout-PCB" H 3050 3550 50  0000 C CNN
+F 2 "miniRover2022:DRV8871-Breakout-PCB" H 2900 3800 50  0001 C CNN
+F 3 "" H 2900 3800 50  0001 C CNN
+	1    2700 3650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 2800 2950 2750
+Wire Wire Line
+	2950 2750 2700 2750
+Wire Wire Line
+	2950 3250 2950 3200
+Wire Wire Line
+	2950 3200 2700 3200
+Wire Wire Line
+	2950 3700 2950 3650
+Wire Wire Line
+	2950 3650 2700 3650
+Wire Wire Line
+	2700 2650 3150 2650
+Wire Wire Line
+	3150 2650 3150 2600
+Wire Wire Line
+	2000 3650 1750 3650
+Wire Wire Line
+	1750 3650 1750 3200
+Wire Wire Line
+	1750 3200 2000 3200
+Wire Wire Line
+	1750 3200 1750 2750
+Wire Wire Line
+	1750 2750 2000 2750
+Connection ~ 1750 3200
+Wire Wire Line
+	2000 2650 1850 2650
+Wire Wire Line
+	1850 2650 1850 3100
+Wire Wire Line
+	1850 3100 2000 3100
+Wire Wire Line
+	1850 3100 1850 3550
+Wire Wire Line
+	1850 3550 2000 3550
+Connection ~ 1850 3100
+Wire Wire Line
+	1500 1550 1750 1550
+Wire Wire Line
+	1500 3200 1750 3200
+Text HLabel 1500 1550 0    50   Input ~ 0
+LIN1
+Text HLabel 1500 1450 0    50   Input ~ 0
+LIN2
+Wire Wire Line
+	1500 1450 1850 1450
+Wire Wire Line
+	1500 3100 1850 3100
+Text HLabel 1500 3200 0    50   Input ~ 0
+RIN1
+Text HLabel 1500 3100 0    50   Input ~ 0
+RIN2
+Wire Wire Line
+	2700 1000 3150 1000
+Wire Wire Line
+	3150 1000 3150 950 
+Wire Wire Line
+	2700 1450 3150 1450
+Wire Wire Line
+	3150 1450 3150 1400
+Wire Wire Line
+	2700 1900 3150 1900
+Wire Wire Line
+	3150 1900 3150 1850
+Wire Wire Line
+	2700 3100 3150 3100
+Wire Wire Line
+	3150 3100 3150 3050
+Wire Wire Line
+	2700 3550 3150 3550
+Wire Wire Line
+	3150 3550 3150 3500
+$Comp
+L power:+12V #PWR?
+U 1 1 60FAA269
+P 3150 3500
+AR Path="/60FAA269" Ref="#PWR?"  Part="1" 
+AR Path="/60F3E927/60FAA269" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 3150 3350 50  0001 C CNN
+F 1 "+12V" H 3165 3673 50  0000 C CNN
+F 2 "" H 3150 3500 50  0001 C CNN
+F 3 "" H 3150 3500 50  0001 C CNN
+	1    3150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 60FA7993
+P 3150 3050
+AR Path="/60FA7993" Ref="#PWR?"  Part="1" 
+AR Path="/60F3E927/60FA7993" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 3150 2900 50  0001 C CNN
+F 1 "+12V" H 3165 3223 50  0000 C CNN
+F 2 "" H 3150 3050 50  0001 C CNN
+F 3 "" H 3150 3050 50  0001 C CNN
+	1    3150 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 60F4A6FF
+P 3150 2600
+AR Path="/60F4A6FF" Ref="#PWR?"  Part="1" 
+AR Path="/60F3E927/60F4A6FF" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 3150 2450 50  0001 C CNN
+F 1 "+12V" H 3165 2773 50  0000 C CNN
+F 2 "" H 3150 2600 50  0001 C CNN
+F 3 "" H 3150 2600 50  0001 C CNN
+	1    3150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 60F93CE5
+P 3150 1850
+AR Path="/60F93CE5" Ref="#PWR?"  Part="1" 
+AR Path="/60F3E927/60F93CE5" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 3150 1700 50  0001 C CNN
+F 1 "+12V" H 3165 2023 50  0000 C CNN
+F 2 "" H 3150 1850 50  0001 C CNN
+F 3 "" H 3150 1850 50  0001 C CNN
+	1    3150 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 60F926AC
+P 3150 1400
+AR Path="/60F926AC" Ref="#PWR?"  Part="1" 
+AR Path="/60F3E927/60F926AC" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 3150 1250 50  0001 C CNN
+F 1 "+12V" H 3165 1573 50  0000 C CNN
+F 2 "" H 3150 1400 50  0001 C CNN
+F 3 "" H 3150 1400 50  0001 C CNN
+	1    3150 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 60F90E03
+P 3150 950
+AR Path="/60F90E03" Ref="#PWR?"  Part="1" 
+AR Path="/60F3E927/60F90E03" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 3150 800 50  0001 C CNN
+F 1 "+12V" H 3165 1123 50  0000 C CNN
+F 2 "" H 3150 950 50  0001 C CNN
+F 3 "" H 3150 950 50  0001 C CNN
+	1    3150 950 
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
