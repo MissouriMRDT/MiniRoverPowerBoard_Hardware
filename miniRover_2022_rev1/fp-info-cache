@@ -1,4 +1,4 @@
-18897352458119074
+18900604876658066
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83216,9 +83216,23 @@ AMASS_XT60-M
 2
 2
 miniRover2022
+Arduino_Uno_Shield
+https://store.arduino.cc/arduino-uno-rev3
+
+0
+38
+37
+miniRover2022
 DRV8871-Breakout-PCB
 
 
 0
 4
 4
+miniRover2022
+maxsignature
+
+
+0
+0
+0
