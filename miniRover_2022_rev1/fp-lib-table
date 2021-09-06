@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name miniRover2022)(type KiCad)(uri C:/Users/maxwe/Documents/GitHub/MiniRoverPowerBoard_Hardware/Documentation/Libraries/miniRover2022.pretty)(options "")(descr ""))
+)

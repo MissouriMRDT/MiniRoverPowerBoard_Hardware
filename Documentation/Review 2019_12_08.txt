@@ -1,7 +1,0 @@
-DONE (Removed 3v3 AP1509) Consider LDOs from remote controller board instead of ap1509
-DONE (Removed 0ohm resistors) Remember what serial 0ohms are for
-DONE change 30a to 35a
-Test arduino for 5v input
-DONE Trace on L2 neeeds fixing
-DONE Separate pvddin2 and in3 planes
-DONE round board edges
